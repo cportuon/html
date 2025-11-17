@@ -1,0 +1,25 @@
+/*
+id      -> se aplica al elemento exclusivamente que tiene esa ID
+P       -> Todos los elementos que se declaan con esa etiqueta admiten esos formatos
+clase   -> aplica los estilos a cualquier elemento asociando la clase
+*/
+
+/* Regla por etiqueta*/
+
+body
+{
+    background-color: rgba(4, 4, 218, 0.798);
+    color: rgb(13, 13, 13);
+    background-image: url("fondo2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estilostexto
+{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
