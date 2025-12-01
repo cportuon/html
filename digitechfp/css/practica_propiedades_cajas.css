@@ -1,6 +1,33 @@
+#madre{
+    width: 1160px;
+    height: 800px;
+    border: 2px blue solid;
+}
 div{
     width: 1100px;
     height: 100px;
     border: 4px red solid;
     text-align: center;
+    line-height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: relative;
+    float:left;
+}
+#caja2{
+    height: 30px;
+    line-height: 30px;
+
+}
+#padre{
+    height: 500px;
+}
+#caja3{
+    width: 1040px;
+    height: 100px;
+}
+#caja4{
+    width: 1040px;
+    height: 200px;
+    line-height: 200px;;
 }
