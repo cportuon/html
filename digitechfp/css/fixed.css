@@ -1,0 +1,23 @@
+/*resetear los estilos del navegador*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    width: 1300px;
+    height: 50px;
+    background-color: brown;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    z-index: 1;
+}
+#contenido{
+    width: 1600px;
+    background-color: darkolivegreen;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
