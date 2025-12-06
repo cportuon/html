@@ -1,0 +1,70 @@
+*
+{
+
+    margin:0;
+    padding: 0;
+    /* border y padding no suman */
+    box-sizing: border-box; 
+    
+}
+
+body {
+
+    background-color: white;
+
+}
+
+#cabecera {
+
+    background-color: white;
+    width: auto;
+    height:100px;
+
+}
+
+#logo {
+
+    width: 40px;
+    position:relative;
+    float:left;
+    margin:10px;
+
+}
+
+#title {
+
+    
+    position:relative;
+    float:left;
+    margin:20px;
+
+}
+
+h1 {
+
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, ;
+
+}
+
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+.elementos {
+    width: 100px;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    border-bottom:1px solid black;
+    font-weight: bold;
+}
