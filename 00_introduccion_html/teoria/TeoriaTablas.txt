@@ -1,0 +1,56 @@
+TABLAS
+------
+
+Atributos:
+	bgcolor-->color de fondo
+	border-->borde de la tabla
+	width-->Anchura de la tabla
+
+
+
+<TABLE>
+	<TH>---Fila cabecera, texto en negrita
+	<TR>---Fila
+	 	<TD></TD>
+	</TR>
+</TABLE>
+
+COMBINAR CELDAS
+----------------
+
+COLSPAN-->COMBINAMOS A NIVEL DE COLUMNA
+ROWSPAN-->COMBINAMOS A NIVEL DE FILA
+
+EJ:
+
+Si queremos que una celda ocupe dos columnas:
+
+<td colspan=2></td>
+
+Si queremos que una celda ocupe dos filas:
+
+<td rowspan=2></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

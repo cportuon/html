@@ -1,0 +1,7 @@
+PROPIEDADES BODY
+----------------
+background-color:yellow|#ff00ff; 	color fondo
+color:orange|#00ff00;			color texto
+background-image:url("fondo1.jpg");	imagen de fondo
+background-size:cover;			centra la imagen como fondo de la página
+background-repeat:no-repeat;		La imagen no hace mosaico

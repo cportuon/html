@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Formulario Web</h1>
+    <br>
+    <br>
+    <form name="miformulario" id="miformulario" method="post" action="">
+
+<!-- Diseñamos las cajas de texto-->
+     Introduce tu nombre
+     <input type="text" name="nombre" id="nombre" size="25" placeholder="Introduce nombre">
+     <br>Introduce tu contraseña
+     <input type="password" name="contra" id="contra" size="40" placeholder="Introduce password">
+     <br>
+     Estudios finalizados<br>
+     <input type="checkbox" name="estudio1" value="eso" selected>ESO<br>
+     <input type="checkbox" name="estudio2" value="bachillerato">Bachillerato<br>
+     <input type="checkbox" name="estudio3" value="CicloFormativo">Ciclo formativo<br>
+     <input type="checkbox" name="estudio4" value="GradoUniversitario">Grado Universitario<br>
+     <br>
+     Edad<br>
+     <input type="radio" name="edad" value="20-30" selected>20-30 años<br>
+     <input type="radio" name="edad" value="31-40">31-40 años<br>
+     <input type="radio" name="edad" value="41-50">41-50 años<br>
+     <input type="radio" name="edad" value="51-60">51-60 años
+    <br>
+    Seleccione la provincia
+    <select name="provincia">
+        <option value="seleccione">Seleccione</option>
+        <option value="cadiz">Cadiz</option>
+        <option value="ciudad real">Ciudad Real</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="segovia">Segovia</option>
+    </select>
+    <BR>
+    Áreas de interés:<br>
+    <select name="areas" size="4" multiple>
+        <option value="seleccione">Seleccione</option>
+        <option value="informatica">informatica</option>
+        <option value="desarrollo">desarrollo</option>
+        <option value="programacion">programación</option>
+        <option value="basesdatos">Bases de datos</option>
+        <option value="sistemas">Sistemas</option>
+
+    </select>
+
+
+
+
+
+
+
+
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     Comentarios<br>
+     <textarea cols="20" rows="10" name="observaciones">
+
+     </textarea>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+IMAGENES
+---------
+.jpg
+.gif
+.png
+
+<img> 
+<br>  ----->no se cierran
+
+Atributos:
+
+src="fondo1.jpg" , obligatorio porque declaramos el nombre del grafico a insertar. En este caso, no especifico ruta xq la imagen estará en la misma carpeta que el documento html.
+
+src="./imagenes/fondo1.jpg", si la imagen está en otro directorio, especificamos con ./, la ruta relativa, diciendo que en este mismo directorio hay una carpeta con el nombre imagenes, y dentro fondo1.jpg
+
+width="700"
+
+height="500" ------>CONSEJO: Modificamos las dimensiones de mayor tamaño a menor. Si solamente modificamos la 			      anchura de la imagen la altura se justa de forma proporcional y no se rompe la 				proporción de la imagen
+
+title="texto idenficativo", aparece cuando nos posicionamos sobre la imagen. Para etiquetar semánticamente las 				imágenes.
+align="center|right|left"
+
+

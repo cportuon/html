@@ -1,0 +1,39 @@
+POSICIONAMIENTO DE LAS CAJAS
+-----------------------------
+
+Es una propiedad que nos permite posicionar los elementos dentro de body.
+
+-static. Posicionamiento del flujo del código. Los elementos se posicionan según se definen en el documento HTML
+
+-absolute. El elemento sale del flujo del código. Le asignamos coordenadas de inserción:
+
+	top: eje y
+	left: eje x
+
+
+-relative. El elemento no sale del flujo del código, y su posicionamiento es relativo a elemento declarado anteriormente en el código.
+	top:eje y
+	left:eje x
+
+
+-fixed. El elemento se ancla y no se mueve aunque realicemos scroll.
+
+
+Complementos absolute
+---------------------
+	Podemos utilizar zindex para modificar el orden de aplimiento. Siendo el elemento que tenga mayor zindex el más superficial.
+
+	z-index:12;
+
+
+
+Complemento relative
+--------------------
+	Podemos utilizar el posicionamiento float, los elementos flotan, si están contenidos en otros, y simplemente aplicamos distancia de flotamiento.
+
+	float:left;
+	margin-left:20px;
+
+
+
+

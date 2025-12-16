@@ -1,0 +1,66 @@
+
+/*
+id-> se aplica al elemento exclusivamente que tiene esa ID
+P-> Todos los elementos que se declaran con esa etiqueta admiten esos formatos
+clase-> aplicar los estilos a cualquier elemento asociando la clase
+*/
+
+/*Regla por etiqueta*/
+
+body
+{
+   background-color: aqua;
+   color: brown; 
+  /* background-image: url("fondo2.jpeg");
+   background-repeat:no-repeat;
+  /* background-size: cover;*/
+  }
+
+div
+{
+    width: 700px;
+    height: 700px;
+    background-image: url("fondo4.jpeg");
+    background-size: cover;
+    margin:50px;
+}
+
+.estilostexto
+{
+font-size: 25px;
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+}
+
+#p1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 20px;
+    color:pink;
+    text-transform:capitalize;
+}
+
+p
+{
+    background-color: blueviolet;
+    color:yellow !important;
+     
+}
+
+.marron
+{
+    background-color: peru;
+    color:brown;
+    font-size: 25px;
+    font-weight: bold;
+    border:8px pink dotted;
+}
+
+.rojo
+    {
+     background-color: red;
+     border:8px solid blue;
+
+    }

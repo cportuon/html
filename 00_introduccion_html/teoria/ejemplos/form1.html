@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<h1>Ejemplo Formulario</h1>
+<br>
+
+<form name="formulario" method="post" action="" enctype="multipart/form-data">
+Introduce tu nombre
+<input type="text" name="nombre" size="25" placeholder="Introduce nombre"><br>
+Password
+<input type="password" name="password" size="30"><br>
+Edad
+<br>
+<input type="radio" name="edad" value="20-30">Entre 20-30 años<br>
+<input type="radio" name="edad" value="31-40">Entre 31-40 años<br>
+<input type="radio" name="edad" value="41-50">Entre 41-50 años<br>
+<br>
+Aficiones
+<br>
+<input type="checkbox" name="aficion1" value="cine">Cine<br>
+<input type="checkbox" name="aficion2" value="deporte">Deporte<br>
+<input type="checkbox" name="aficion3" value="videojuegos">Videojuegos<br>
+<br>
+Seleccione provincia
+<select id="provincias">
+    <option value="seleccione">Seleccione</option>
+    <option value="cadiz">Cádiz</option>
+    <option value="Segovia">Segovia</option>
+    <option value="Soria">Soria</option>
+    <option value="Cuenca">Cuenca</option>
+</select>
+<br>
+Seleccione ciudad<br>
+
+
+<select id="ciudad" size="3" multiple>
+    <option value="seleccione">Seleccione</option>
+    <option value="cadiz">Madrid</option>
+    <option value="Segovia">Valencia</option>
+    <option value="Soria">Sevilla</option>
+    <option value="Cuenca">Cuenca</option>
+</select>
+<br>
+Observaciones<br>
+<textarea cols="20" rows="10"></textarea>
+<br>
+Seleccione curriculum
+<input type="file" name="curriculum"><br>
+
+
+<input type="submit" value="Enviar datos">
+<input type="reset" value="Borrar datos">
+<button onclick="window.alert('Hola Mundo!!!!')">Boton JS</button>
+</form>
+
+</body>

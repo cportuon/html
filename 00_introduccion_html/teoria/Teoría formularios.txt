@@ -1,0 +1,94 @@
+FORMULARIOS HTML
+------------------
+
+Para recoger información, datos, esta información podemos hacer cosas:
+
+-Enviar estos datos a una cuenta de correo electrónico
+-Enviar estos datos a una sistema de gestión(BBDD)
+
+<form>
+<!-- Declaramos los controles que componen el formulario-->
+
+</form>
+
+Atributos de form
+------------------
+name, nombre que le asignamos al formulario
+id, identificador que le asignamos al formulario
+
+method, la forma en la que se procesan los datos. (get|post|put), el más método más seguro es post, que cifra los datos
+
+action, configuramos el archivo, que procesará los datos que tecleamos en los elementos de formulario, y que crea la conexión o bien con la base de datos que guardará la información o con el archivo repositorio. En action agregamos el nombre del archivo.
+
+<form name="miformulario" id="miformulario" action="enviar.php">
+
+</form>
+
+CAJAS DE TEXTO
+--------------
+Elementos que piden texto, a través del propio control.
+
+-Caja de texto convencional
+<input type="text" name="nombre" id="nombre" size="20" placeholder="Introduce texto">
+
+-Caja de texto tipo password, cifra el contenido según se teclea
+<input type="password" name="contra" id="contra" placeholder="Teclea contraseña">
+
+-Areas de texto. Añadir bloques de texto tipo párrafo.(Comentarios)
+<textarea cols="10" row="10" name="comentarios" id="comentarios">
+</textarea>
+
+CASILLAS
+--------
+-checkbox. Son cuadradas y permiten marcar varios dentro de un grupo
+
+Aficiones
+<input type="checkbox" name="aficion1" value="cine">Cine<br>
+<input type="checkbox" name="aficion2" value="deporte">Deporte<br>
+<input type="checkbox" name="aficion3" value="videojuego">Videojuego
+
+-radiobutton. Son redondas y permiten marcar solamente un elemento. Dentro de un grupo de casillas de tipo radio, el name tiene que ser el mismo y diferentes valores.
+
+<input type="radiobutton" name="edad" value="20-30">Entre 20-30 años
+<input type="radiobutton" name="edad" value="31-40">Entre 31-40 años
+<input type="radiobutton" name="edad" value="41-50">Entre 41-50 años
+
+
+LISTAS
+-------
+Se muestra un listado de valores dentro del control.
+
+1.Listas desplegables
+<select name="milista" id="milista">
+	<option value="elemento1">Elemento1</option>
+</select>
+
+
+
+2.Listas de elementos.
+<select name="milista2" size="4">
+	<option value="seleccione">Seleccione</option>
+	<option value="seleccione">Seleccione</option>
+	<option value="seleccione">Seleccione</option>
+	<option value="seleccione">Seleccione</option>
+	<option value="seleccione">Seleccione</option>
+	<option value="seleccione">Seleccione</option>
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
