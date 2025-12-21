@@ -12,7 +12,7 @@
                     <a href="practica_maquetacion_flex.html"><img id="logo" src="imagenes/Antares Digital LOGO.jpg"></a>
                     <a href="practica_maquetacion_flex.html"><h1>Antares Digital</h1></a>
             </div>
-            <div id="botones">
+            <div id="menu">
                 <a href="practica_maquetacion_flex.html"><div>Inicio</div></a>
                 <a href="practica_maquetacion_flex_elearning.html"><div>E-Learning</div></a>
                 <a href="practica_maquetacion_flex_contenidos.html"><div id="contenidos">Contenidos</div></a>
@@ -23,7 +23,40 @@
                 <a href="practica_maquetacion_flex_contacto.html"><div>Contacto</div></a>
             </div>
         </nav>
-    
+        <div class="cuerpo">
+            <h2>Desarrollo de Contenidos</h2>
+            <p>Desarrolamos cursos SCORM listos para usar, con estos beneficios:</p>
+            <ul id="beneficios">
+                <li>Ahorro de tiempo: Contenidos listos, sin necesidad de crearlos desde cero.</li><br>
+                <li>Calidad garantizada: Diseño instruccional experto, interactivo y multimedia.</li><br>
+                <li>Variedad y personalización: Amplia gama de contenidos adaptables.</li><br>
+                <li>Seguimiento y evaluación: Control del progreso e informes detallados gracias al formato SCORM.</li><br>
+            </ul>
+            <h2>Reserva de Curso</h2>
+         </div>
+        <div id="formcurso">
+            <form action="">
+                <p><Strong>Curso:</Strong></p>
+                <select  id="cursos" name="cursos">
+                    <option value="">-- Selecciona un curso --</option>
+                    <option value="expri">Excel Principiante</option>
+                    <option value="exint">Excel Intermedio</option>
+                    <option value="exava">Excel Avanzado</option>
+                    <option value="wdpri">Word Principiante</option>
+                    <option value="wdint">Word Intermedio</option>
+                    <option value="wdava">Word Avanzado</option>
+                </select>
+                <p><Strong>Fecha de inicio:</Strong></p>
+                <input type="date" name="fecha" id="fecha" size="30">
+                <p><Strong>Nombre:</Strong></p>
+                <input type="text" name="nombre" id="nombre" size="30">
+                <p><Strong>Correo:</Strong></p>
+                <div id="correo">
+                    <input type="text" name="correo" id="txtcorreo" size="30">
+                    <input class="boton" type="submit" value="Confirmar reserva">
+                </div>
+            </form>
+       </div>
         <footer>
             <p>© 2025 Antares Digital |&nbsp;</p>
             <a href="practica_maquetacion_flex_contacto.html"><p id="contacto">Contacto</p></a>

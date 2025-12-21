@@ -48,16 +48,13 @@ a{
 
 }
 
-#botones {
+#menu {
     margin-right: 10px;
     display: flex;
-    gap: 25px;
-}
-
-#boton div {    
-    height: 50px;
-    display: flex;
+    flex-direction:row;
+    justify-content: end;
     align-items: center;
+    gap: 25px;
 }
 
 #portada {
@@ -73,7 +70,6 @@ a{
     flex-direction: column;
     justify-content: center; /* centra vertical */
     align-items: center; /* centra horizontal */
-
     text-align: center;
 }
 
@@ -98,15 +94,12 @@ a{
     margin-top: 20px;
     width: 100%;
     height: 300px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-
-
 }
 
 #informacion div{
@@ -123,7 +116,6 @@ a{
     text-align: center;
     gap: 15px;
     padding: 20px;
-
 }
 
 #informacion input{
@@ -145,23 +137,58 @@ footer{
     align-items:center;
 }
 
-#cuerpo{
+.cuerpo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
-    padding: 20px;
+    margin: 60px;
     gap: 20px;
 }
-#cuerpo input{
+.boton{
     background-color: black;
     color: white;
     border-radius: 5px;
     width: 140px;
     height: 40px;
 }
-#cuerpo ul{
-    list-style-type: disc;
+.cuerpo ul{
+    list-style-type:disc;
     padding-left: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    gap: 8px;
+    width: 600px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#fecha{
+    color: black;
+}
+#beneficios{
+    list-style-type:"- ";
+    padding-left: 10px;
+}
 
+#formcurso input, select{
+    height: 30px;
+
+}
+#correo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+#txtcorreo{
+    width: 100%;
+}
+#correo input{
+    padding: 5px;
 }
