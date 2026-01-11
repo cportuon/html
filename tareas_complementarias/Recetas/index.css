@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(mockup-de-libro-con-cuchara-de-madera-y-pan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    min-height: 100vh;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+#cabecera{
+    font-size: 70px;
+    text-align: center;
+}
+#navegacion{
+    display: flex;
+    list-style-type:none;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#informacion{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align:justify;
+}
+#cuerpo{
+    padding: 20px;
+}
+
+#lista {
+  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px; 
+    background-color: white;
+    border-radius: 15px;
+}
+
+#lista ul {
+  padding-left: 25px;
+  list-style-type: circle;
+}
+
+#lista li {
+  margin: 6px;
+}
+#pie{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    text-align: center;
+    background-color: unset;
+    list-style-type: none;
+    
+}
+hr{
+    margin-top: 50px;
+}
