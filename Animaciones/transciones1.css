@@ -1,0 +1,49 @@
+div
+{
+width: 500px;
+height: 250px;
+border: 3px solid red;
+border-radius: 0px;
+background-color: cadetblue;
+margin-bottom: 25px;
+transition: all 1s;
+}
+
+div:hover
+{
+background-color: chartreuse;
+border:16px solid blue;
+border-radius: 60px;
+cursor: pointer;
+
+}
+/*
+img
+{
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    transition: all 1s;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+
+img:hover
+{
+opacity:0.6;
+width: 200px;
+height: 200px;
+cursor: pointer;
+top:0px;
+left:100px;
+
+}
+
+
+
+
+
+
+

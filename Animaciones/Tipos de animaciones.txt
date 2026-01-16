@@ -1,0 +1,30 @@
+ANIMACIONES
+------------
+
+1.Transiciones. Consiste en desarrollar una acción y que esta acción se desencadene cuando realizamos un evento. Necesitamos una pseudoclase para asociar el evento a la acción.(:hover,:active,:focus)
+
+Modo de funcionamiento:
+
+1.En el documento CSS, se declaran las propiedades en estado de reposo.
+2.Dentro de la pseudoclase, modificamos los valores de esas propiedades.
+
+No podemos transicionar propiedades que no están declaradas en estado de reposo, fuera de la pseudoclase.
+
+Sintaxis:
+	transition:nombrepropiedad/all 3s velocidad;
+
+velocidad:linear,berzier,easy,....
+
+
+
+
+
+
+
+2.Animaciones fotograma a fotograma
+
+
+
+
+
+
